@@ -1,0 +1,47 @@
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  max-width:300px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+#output {
+  background-color: white;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  font-size: 20px;
+}
+
+
+.btn {
+    /* grid-column:span 1; */
+    height: 40px;
+    font-weight: bold;
+    /* width: 40px; */
+    cursor: pointer;
+  }
+  
+  #header {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .container{
+  background-color: gray;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border: 2px black solid;
+}
